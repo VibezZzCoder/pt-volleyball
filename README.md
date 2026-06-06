@@ -2,9 +2,19 @@
 
 A single-file offline browser volleyball game prototype with an Air Force PT theme, desktop keyboard play, mobile touch controls, and embedded generated art.
 
+Play it here:
+
+https://vibezzzcoder.github.io/pt-volleyball/
+
 ## Status
 
 This is an early prototype. Gameplay, art, controls, and balance may change frequently.
+
+## Screenshots
+
+![Portrait Mode](portrait demo screenshot.jpeg)
+
+![Landscape Mode](landscape demo screenshot.jpeg)
 
 ## Features
 
