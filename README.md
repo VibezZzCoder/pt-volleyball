@@ -32,24 +32,26 @@ This is an early prototype. Gameplay, art, controls, and balance may change freq
 Player 1:
 
 - `W` / `A` / `S` / `D` = move
-- `F` = bump
-- `G` = spike
+- `F` = bump (press while moving with no ball in reach = diving dig)
+- `G` = spike (press near the net with no ball to attack = defensive block jump)
 - `R` = swap player
 
 Player 2:
 
 - `Arrow keys` = move
-- `,` = bump
-- `.` = spike
+- `,` = bump (also dives when moving)
+- `.` = spike (also blocks at the net)
 - `/` = swap player
 
 System:
 
 - `Esc` / `P` = pause
 
+Bump and Spike are context-sensitive: the same input becomes a **dive** (bump while on the move) or a **block** (spike at the net when there's no ball to attack), so you always get a visible reaction.
+
 Mobile:
 
-- Touch controls appear automatically.
+- Touch controls appear automatically; the on-screen BUMP / SPIKE buttons do the same context-sensitive dive / block.
 - Portrait and landscape are both playable.
 
 ## Local Play
