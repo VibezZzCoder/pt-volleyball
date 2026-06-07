@@ -12,9 +12,9 @@ This is an early prototype. Gameplay, art, controls, and balance may change freq
 
 ## Screenshots
 
-![Landscape Mode](landscape-demo-screenshot.png)
+![Landscape Mode](landscape-demo-screenshot.jpeg)
 
-![Landscape Mode](landscape-demo-screenshot-2.jpeg)
+![Landscape Mode](landscape-demo-screenshot-2.png)
 
 ![Portrait Mode](portrait-demo-screenshot.png)
 
