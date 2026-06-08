@@ -29,6 +29,16 @@ This is an early prototype. Gameplay, art, controls, and balance may change freq
 - Mobile touch controls for phone and tablet browsers
 - Offline play from a single `index.html` file with no network dependencies
 
+## Difficulty (1 Player)
+
+- **Easy** — your CPU teammates reliably keep every ball that's hit into their zone alive. The only ball that's yours to win or lose is the one that comes to *you*; the opponent plays loose and is beatable.
+- **Normal** — a balanced, side-to-side game where both teams trade long rallies.
+- **Hard** — the CPU opponent digs your attacks and answers with fast, accurate, deliberate spikes. Your AI teammates are only competent, so you have to carry.
+
+In **2 Players** mode the CPU teammates focus on *passing* — they set the ball up for the human players and leave the scoring to you, rather than putting the ball away themselves.
+
+Across all modes the CPU follows real volleyball rules: it won't contact the ball twice in a row, and a side gets at most three touches before it must go over the net.
+
 ## Controls
 
 Player 1:
