@@ -1,6 +1,6 @@
 # PT Volleyball
 
-A single-file offline browser volleyball game prototype with an Air Force PT theme, desktop keyboard play, mobile touch controls, and embedded generated art.
+An offline 5-on-5 arcade volleyball game with an Air Force PT-inspired theme, desktop keyboard play, mobile touch controls, and polished original art.
 
 Play it here:
 
@@ -8,7 +8,7 @@ https://vibezzzcoder.github.io/pt-volleyball/
 
 ## Status
 
-This is an early prototype. Gameplay, art, controls, and balance may change frequently.
+The current open-source build is fully playable on desktop and mobile. It supports solo play against the CPU, two players on one shared keyboard, two courts, selectable match lengths, and three solo difficulty levels. Future updates may add more characters, courts, and animation, but the current core game is complete and fun to play.
 
 ## Screenshots
 
@@ -25,9 +25,9 @@ This is an early prototype. Gameplay, art, controls, and balance may change freq
 - `2 Players` mode on a shared keyboard
 - Selectable court presentation
 - Selectable player character
-- Embedded self-contained generated character, ball, and environment art
+- Polished character, ball, and court art with generated fallbacks
 - Mobile touch controls for phone and tablet browsers
-- Offline play from a single `index.html` file with no network dependencies
+- A self-contained release that plays offline with no network dependencies
 
 ## Difficulty (1 Player)
 
@@ -68,9 +68,15 @@ Mobile:
 
 ## Local Play
 
-Open `index.html` directly in a desktop browser, or host the folder with any static file server.
+Open `index.html` directly in a desktop browser to run the multi-file development build, or host the project folder with any static file server.
 
 No build step is required for local play.
+
+For a portable single-file copy, use `release/upload/index.html`. After changing source code or art, regenerate that file with:
+
+```bash
+node scripts/build_single_file.mjs
+```
 
 ## Attribution
 
