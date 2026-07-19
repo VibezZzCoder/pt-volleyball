@@ -16,7 +16,7 @@ The current open-source build is fully playable on desktop and mobile. It suppor
 
 ![Landscape Mode](landscape-demo-screenshot-2.png)
 
-![Portrait Mode](portrait-demo-screenshot.png)
+![Portrait Mode](portrait-demo-screenshot.jpeg)
 
 ## Features
 
@@ -71,12 +71,6 @@ Mobile:
 Open `index.html` directly in a desktop browser to run the multi-file development build, or host the project folder with any static file server.
 
 No build step is required for local play.
-
-For a portable single-file copy, use `release/upload/index.html`. After changing source code or art, regenerate that file with:
-
-```bash
-node scripts/build_single_file.mjs
-```
 
 ## Attribution
 
