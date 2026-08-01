@@ -26,6 +26,7 @@ The current open-source build is fully playable on desktop and mobile. It suppor
 - Polished character, ball, and court art
 - Mobile touch controls for phone and tablet browsers
 - A self-contained release that plays offline with no network dependencies
+- Point callouts that explain why the rally ended
 
 ## Difficulty (1 Player)
 
@@ -35,7 +36,7 @@ The current open-source build is fully playable on desktop and mobile. It suppor
 
 In **2 Players** mode the CPU teammates focus on *passing* — they set the ball up for the human players and leave the scoring to you, rather than putting the ball away themselves.
 
-Across all modes the CPU follows real volleyball rules: it won't contact the ball twice in a row, and a side gets at most three touches before it must go over the net.
+Across all modes the CPU follows real volleyball rules: it won't contact the ball twice in a row, and a side gets at most three touches before it must go over the net. A serve must cross untouched—if it hits the net, lands short, or is touched by the serving team, the receiver wins the point immediately.
 
 Choose a Short (11), Medium (21), or Long (25) match. A team must win by two.
 
