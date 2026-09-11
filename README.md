@@ -12,7 +12,7 @@ The current open-source build is fully playable on desktop and mobile. It suppor
 
 ![Landscape Mode](landscape-demo-screenshot.jpeg)
 
-![Landscape Mode](landscape-demo-screenshot-2.png)
+![Landscape Mode](landscape-demo-screenshot-2.jpeg)
 
 ![Portrait Mode](portrait-demo-screenshot.jpeg)
 
